@@ -3,15 +3,15 @@
   "id": "farmies",
   "version": "${version}",
   "name": "Farmies",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "Turn your Minecraft world into a thriving farm with Farmies!",
   "authors": [
-    "Me!"
+    "LunazStudios"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/farmies",
+    "issues": "https://github.com/gifluana/Farmies/issues"
   },
-  "license": "CC0-1.0",
+  "license": "MIT",
   "icon": "icon.png",
   "environment": "*",
   "entrypoints": {

@@ -1,17 +1,17 @@
 modLoader = "javafml"
 loaderVersion = "[4,)"
 #issueTrackerURL = ""
-license = "Insert License Here"
+license = "MIT"
 
 [[mods]]
 modId = "farmies"
 version = "${version}"
 displayName = "Farmies"
-authors = "Me!"
+authors = "LunazStudios"
 description = '''
-This is an example description! Tell everyone what your mod is about!
+Turn your Minecraft world into a thriving farm with Farmies!
 '''
-#logoFile = ""
+logoFile = "icon.png"
 
 [[dependencies.farmies]]
 modId = "neoforge"
