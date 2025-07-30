@@ -12,14 +12,14 @@
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
   "license": "CC0-1.0",
-  "icon": "assets/farmies/icon.png",
+  "icon": "icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.lunazstudios.farmies.fabric.ExampleModFabric"
+      "com.lunazstudios.farmies.fabric.FarmiesFabric"
     ],
     "client": [
-      "com.lunazstudios.farmies.fabric.client.ExampleModFabricClient"
+      "com.lunazstudios.farmies.fabric.client.FarmiesFabricClient"
     ]
   },
   "mixins": [

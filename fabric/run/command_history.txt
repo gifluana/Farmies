@@ -1,0 +1,9 @@
+/gamerule randomTickSpeed 300
+/gamerule randomTickSpeed 3
+/time set 6000
+/gamerule randomTickSpeed 0
+/time set 6000
+/gamerule randomTickSpeed 300
+/gamerule randomTickSpeed 0
+/time set 6000
+/gamerule doDaylightCycle false
