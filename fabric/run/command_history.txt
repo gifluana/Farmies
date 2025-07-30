@@ -7,3 +7,7 @@
 /gamerule randomTickSpeed 0
 /time set 6000
 /gamerule doDaylightCycle false
+/gamerule randomTickSpeed 3000
+/gamerule randomTickSpeed 3
+/gamerule randomTickSpeed 0
+/setblock -2 -61 -8 minecraft:farmland[moisture=7]

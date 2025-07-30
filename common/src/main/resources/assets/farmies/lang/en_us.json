@@ -1,6 +1,9 @@
 {
   "item.farmies.tomato_seeds": "Tomato Seeds",
+  "item.farmies.lettuce_seeds": "Lettuce Seeds",
   "item.farmies.tomato": "Tomato",
+  "item.farmies.lettuce": "Lettuce",
 
-  "block.farmies.tomatoes": "Tomatoes"
+  "block.farmies.tomatoes": "Tomatoes",
+  "block.farmies.lettuces": "Lettuces"
 }

@@ -5,8 +5,10 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/farmies.common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/farmies.common.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/farmies.common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/farmies.common.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/farmies.common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/common/farmies.common.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/farmies.fabric.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/farmies.fabric.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/farmies.fabric.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/farmies.fabric.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/farmies.fabric.test.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/farmies.fabric.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/neoforge/farmies.neoforge.iml" filepath="$PROJECT_DIR$/.idea/modules/neoforge/farmies.neoforge.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/neoforge/farmies.neoforge.main.iml" filepath="$PROJECT_DIR$/.idea/modules/neoforge/farmies.neoforge.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/neoforge/farmies.neoforge.test.iml" filepath="$PROJECT_DIR$/.idea/modules/neoforge/farmies.neoforge.test.iml" />
     </modules>
