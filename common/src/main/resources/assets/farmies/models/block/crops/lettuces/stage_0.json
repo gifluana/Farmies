@@ -2,10 +2,11 @@
 	"format_version": "1.9.0",
 	"credit": "Made with Blockbench",
 	"ambientocclusion": false,
+	"render_type": "minecraft:cutout",
 	"texture_size": [64, 64],
 	"textures": {
-		"1": "farmies:block/crops/lettuce",
-		"particle": "farmies:block/crops/lettuce"
+		"1": "farmies:block/crops/lettuces",
+		"particle": "farmies:block/crops/lettuces"
 	},
 	"elements": [
 		{

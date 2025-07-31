@@ -23,6 +23,7 @@
     ]
   },
   "mixins": [
+    "farmies_fabric.mixins.json",
     "farmies.mixins.json"
   ],
   "depends": {

@@ -112,20 +112,25 @@
 [Architectury Transformer DEBUG]  - C:\Arquives\LunazStudios\Projetos\Farmies\Farmies\.gradle\loom-cache\remapped_mods\loom_mappings_1_21_1_layered_hash_40359_v2\net\fabricmc\fabric-api\fabric-resource-loader-v0\1.3.1+5b5275af19\fabric-resource-loader-v0-1.3.1+5b5275af19.jar
 [Architectury Transformer DEBUG]  - C:\Arquives\LunazStudios\Projetos\Farmies\Farmies\.gradle\loom-cache\remapped_mods\loom_mappings_1_21_1_layered_hash_40359_v2\net\fabricmc\fabric-api\fabric-sound-api-v1\1.0.23+6573ed8c19\fabric-sound-api-v1-1.0.23+6573ed8c19.jar
 [Architectury Transformer DEBUG]  - C:\Arquives\LunazStudios\Projetos\Farmies\Farmies\.gradle\loom-cache\remapped_mods\loom_mappings_1_21_1_layered_hash_40359_v2\net\fabricmc\fabric-api\fabric-transitive-access-wideners-v1\6.2.0+45b9699719\fabric-transitive-access-wideners-v1-6.2.0+45b9699719.jar
-[Architectury Transformer] Read classpath in 1.793 s
+[Architectury Transformer] Read classpath in 1.560 s
 [Architectury Transformer DEBUG] Closed File Systems for C:\Arquives\LunazStudios\Projetos\Farmies\Farmies\common\build\devlibs\farmies-common-1.0.0-dev.jar
-[Architectury Transformer DEBUG] Transforming 5 transformer(s) from C:\Arquives\LunazStudios\Projetos\Farmies\Farmies\common\build\devlibs\farmies-common-1.0.0-dev.jar to C:\Users\giflu\AppData\Local\Temp\9007530521115120288.jar: 
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@12946090
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeFabricMod@2a7235ef
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@387eca32
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@11444634
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@2065346c
-[Architectury Transformer DEBUG] Transforming from C:\Arquives\LunazStudios\Projetos\Farmies\Farmies\common\build\devlibs\farmies-common-1.0.0-dev.jar to C:\Users\giflu\AppData\Local\Temp\9007530521115120288.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
+[Architectury Transformer DEBUG] Transforming 5 transformer(s) from C:\Arquives\LunazStudios\Projetos\Farmies\Farmies\common\build\devlibs\farmies-common-1.0.0-dev.jar to C:\Users\giflu\AppData\Local\Temp\12646381008484429459.jar: 
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@39f9c538
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeFabricMod@5f3bf818
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@46c09081
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@51f0c6d1
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@26d709d2
+[Architectury Transformer DEBUG] Transforming from C:\Arquives\LunazStudios\Projetos\Farmies\Farmies\common\build\devlibs\farmies-common-1.0.0-dev.jar to C:\Users\giflu\AppData\Local\Temp\12646381008484429459.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/block/FarmiesCropBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/block/FarmlandWithWormsBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/block/FertilizedFarmlandBlock with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/block/LettuceCropBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/block/OnionCropBlock with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/block/TomatoCropBlock with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/client/FarmiesClient with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/Farmies with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/mixin/CropBlockMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/registry/FBlocks with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/registry/FBlockTags with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/registry/FEntityTypes with maxs=true frames=true
@@ -135,161 +140,70 @@
 [Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/registry/FRegistry$BlockEntitySupplier with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/registry/FRegistry with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/registry/FSoundEvents with maxs=true frames=true
+[Architectury Transformer DEBUG] Checking whether /farmies-common-common-refmap.json is a mixin config.
 [Architectury Transformer DEBUG] Checking whether /farmies.mixins.json is a mixin config.
-[Architectury Transformer DEBUG] Closed File Systems for C:\Users\giflu\AppData\Local\Temp\9007530521115120288.jar
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\giflu\AppData\Local\Temp\12646381008484429459.jar
 [Architectury Transformer] Listening at C:\Arquives\LunazStudios\Projetos\Farmies\Farmies\common\build\devlibs\farmies-common-1.0.0-dev.jar
-[Architectury Transformer DEBUG] Temporary jar [C:\Users\giflu\AppData\Local\Temp\9007530521115120288.jar] contains packages: com.lunazstudios.farmies.client, com.lunazstudios.farmies.block, com.lunazstudios.farmies, com.lunazstudios.farmies.registry
+[Architectury Transformer DEBUG] Temporary jar [C:\Users\giflu\AppData\Local\Temp\12646381008484429459.jar] contains packages: com.lunazstudios.farmies.mixin, com.lunazstudios.farmies.client, com.lunazstudios.farmies.block, com.lunazstudios.farmies, com.lunazstudios.farmies.registry
 [Architectury Transformer DEBUG] Closed File Systems for C:\Arquives\LunazStudios\Projetos\Farmies\Farmies\common\build\devlibs\farmies-common-1.0.0-dev.jar
 [Architectury Transformer DEBUG] Classpath entry [C:\Arquives\LunazStudios\Projetos\Farmies\Farmies\fabric\build\resources\main] contains packages: 
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/farmies/Farmies.class to com/lunazstudios/farmies/Farmies.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/Farmies with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/farmies/Farmies in 1.732 ms
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/farmies/Farmies in 1.493 ms
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/farmies/registry/FBlocks.class to com/lunazstudios/farmies/registry/FBlocks.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/registry/FBlocks with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/farmies/registry/FBlocks in 1.748 ms
-[Architectury Transformer DEBUG] Transforming from com/lunazstudios/farmies/block/TomatoCropBlock.class to com/lunazstudios/farmies/block/TomatoCropBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/farmies/registry/FBlocks in 2.188 ms
+[Architectury Transformer DEBUG] Transforming from com/lunazstudios/farmies/block/FertilizedFarmlandBlock.class to com/lunazstudios/farmies/block/FertilizedFarmlandBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/block/TomatoCropBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/farmies/block/TomatoCropBlock in 856.7 μs
+[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/block/FertilizedFarmlandBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/farmies/block/FertilizedFarmlandBlock in 283.5 μs
+[Architectury Transformer DEBUG] Transforming from com/lunazstudios/farmies/block/FarmlandWithWormsBlock.class to com/lunazstudios/farmies/block/FarmlandWithWormsBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/block/FarmlandWithWormsBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/farmies/block/FarmlandWithWormsBlock in 231.6 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/farmies/block/LettuceCropBlock.class to com/lunazstudios/farmies/block/LettuceCropBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/block/LettuceCropBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/farmies/block/LettuceCropBlock in 913.9 μs
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/farmies/block/LettuceCropBlock in 899.7 μs
+[Architectury Transformer DEBUG] Transforming from com/lunazstudios/farmies/block/OnionCropBlock.class to com/lunazstudios/farmies/block/OnionCropBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/block/OnionCropBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/farmies/block/OnionCropBlock in 1.146 ms
+[Architectury Transformer DEBUG] Transforming from com/lunazstudios/farmies/block/TomatoCropBlock.class to com/lunazstudios/farmies/block/TomatoCropBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/block/TomatoCropBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/farmies/block/TomatoCropBlock in 952.1 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/farmies/registry/FRegistry.class to com/lunazstudios/farmies/registry/FRegistry.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/registry/FRegistry with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/farmies/registry/FRegistry in 2.928 ms
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/farmies/registry/FRegistry in 1.654 ms
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/farmies/registry/FItems.class to com/lunazstudios/farmies/registry/FItems.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/registry/FItems with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/farmies/registry/FItems in 1.186 ms
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/farmies/registry/FItems in 1.367 ms
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/farmies/registry/FFoodProperties.class to com/lunazstudios/farmies/registry/FFoodProperties.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/registry/FFoodProperties with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/farmies/registry/FFoodProperties in 920.5 μs
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/farmies/registry/FFoodProperties in 512.5 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/farmies/registry/FBlockTags.class to com/lunazstudios/farmies/registry/FBlockTags.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/registry/FBlockTags with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/farmies/registry/FBlockTags in 654.0 μs
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/farmies/registry/FBlockTags in 546.3 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/farmies/registry/FEntityTypes.class to com/lunazstudios/farmies/registry/FEntityTypes.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/registry/FEntityTypes with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/farmies/registry/FEntityTypes in 443.8 μs
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/farmies/registry/FEntityTypes in 235.5 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/farmies/registry/FEntityTypeTags.class to com/lunazstudios/farmies/registry/FEntityTypeTags.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/registry/FEntityTypeTags with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/farmies/registry/FEntityTypeTags in 552.6 μs
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/farmies/registry/FEntityTypeTags in 408.7 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/farmies/registry/FSoundEvents.class to com/lunazstudios/farmies/registry/FSoundEvents.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/registry/FSoundEvents with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/farmies/registry/FSoundEvents in 1.020 ms
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/farmies/registry/FSoundEvents in 575.0 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/farmies/client/FarmiesClient.class to com/lunazstudios/farmies/client/FarmiesClient.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/client/FarmiesClient with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/farmies/client/FarmiesClient in 535.4 μs
-[Architectury Transformer DEBUG] Closed File Systems for C:\Arquives\LunazStudios\Projetos\Farmies\Farmies\common\build\devlibs\farmies-common-1.0.0-dev.jar
-[Architectury Transformer] Detected File Modification at farmies-common-1.0.0-dev.jar
-[Architectury Transformer DEBUG] Transforming 5 transformer(s) from C:\Arquives\LunazStudios\Projetos\Farmies\Farmies\common\build\devlibs\farmies-common-1.0.0-dev.jar to C:\Users\giflu\AppData\Local\Temp\9007530521115120288.jar: 
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@12946090
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeFabricMod@2a7235ef
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@387eca32
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@11444634
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@2065346c
-[Architectury Transformer DEBUG] Transforming from C:\Arquives\LunazStudios\Projetos\Farmies\Farmies\common\build\devlibs\farmies-common-1.0.0-dev.jar to C:\Users\giflu\AppData\Local\Temp\9007530521115120288.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing architectury_inject_farmies_fabric_a52e928fca064c2993b310a9e231a184_9288909e1f72a79840c9ac73e87b4b4ebc6f8d0a09073840b4e634010206c8cbfarmiescommon100devjar/PlatformMethods with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/Farmies with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/block/LettuceCropBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/block/TomatoCropBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/client/FarmiesClient with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/registry/FBlocks with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/registry/FBlockTags with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/registry/FEntityTypes with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/registry/FEntityTypeTags with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/registry/FFoodProperties with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/registry/FItems with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/registry/FRegistry$BlockEntitySupplier with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/registry/FRegistry with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/registry/FSoundEvents with maxs=true frames=true
-[Architectury Transformer DEBUG] Checking whether /farmies.mixins.json is a mixin config.
-[Architectury Transformer DEBUG] Checking whether /fabric.mod.json is a mixin config.
-[Architectury Transformer DEBUG] Closed File Systems for C:\Arquives\LunazStudios\Projetos\Farmies\Farmies\common\build\devlibs\farmies-common-1.0.0-dev.jar
-[Architectury Transformer] Detected File Modification at farmies-common-1.0.0-dev.jar
-[Architectury Transformer DEBUG] Transforming 5 transformer(s) from C:\Arquives\LunazStudios\Projetos\Farmies\Farmies\common\build\devlibs\farmies-common-1.0.0-dev.jar to C:\Users\giflu\AppData\Local\Temp\9007530521115120288.jar: 
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@12946090
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeFabricMod@2a7235ef
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@387eca32
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@11444634
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@2065346c
-[Architectury Transformer DEBUG] Transforming from C:\Arquives\LunazStudios\Projetos\Farmies\Farmies\common\build\devlibs\farmies-common-1.0.0-dev.jar to C:\Users\giflu\AppData\Local\Temp\9007530521115120288.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing architectury_inject_farmies_fabric_a52e928fca064c2993b310a9e231a184_9288909e1f72a79840c9ac73e87b4b4ebc6f8d0a09073840b4e634010206c8cbfarmiescommon100devjar/PlatformMethods with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/Farmies with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/block/LettuceCropBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/block/TomatoCropBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/client/FarmiesClient with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/registry/FBlocks with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/registry/FBlockTags with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/registry/FEntityTypes with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/registry/FEntityTypeTags with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/registry/FFoodProperties with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/registry/FItems with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/registry/FRegistry$BlockEntitySupplier with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/registry/FRegistry with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/registry/FSoundEvents with maxs=true frames=true
-[Architectury Transformer DEBUG] Checking whether /farmies.mixins.json is a mixin config.
-[Architectury Transformer DEBUG] Checking whether /fabric.mod.json is a mixin config.
-[Architectury Transformer DEBUG] Closed File Systems for C:\Arquives\LunazStudios\Projetos\Farmies\Farmies\common\build\devlibs\farmies-common-1.0.0-dev.jar
-[Architectury Transformer] Detected File Modification at farmies-common-1.0.0-dev.jar
-[Architectury Transformer DEBUG] Transforming 5 transformer(s) from C:\Arquives\LunazStudios\Projetos\Farmies\Farmies\common\build\devlibs\farmies-common-1.0.0-dev.jar to C:\Users\giflu\AppData\Local\Temp\9007530521115120288.jar: 
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@12946090
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeFabricMod@2a7235ef
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@387eca32
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@11444634
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@2065346c
-[Architectury Transformer DEBUG] Transforming from C:\Arquives\LunazStudios\Projetos\Farmies\Farmies\common\build\devlibs\farmies-common-1.0.0-dev.jar to C:\Users\giflu\AppData\Local\Temp\9007530521115120288.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing architectury_inject_farmies_fabric_a52e928fca064c2993b310a9e231a184_9288909e1f72a79840c9ac73e87b4b4ebc6f8d0a09073840b4e634010206c8cbfarmiescommon100devjar/PlatformMethods with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/Farmies with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/block/LettuceCropBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/block/TomatoCropBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/client/FarmiesClient with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/registry/FBlocks with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/registry/FBlockTags with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/registry/FEntityTypes with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/registry/FEntityTypeTags with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/registry/FFoodProperties with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/registry/FItems with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/registry/FRegistry$BlockEntitySupplier with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/registry/FRegistry with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/registry/FSoundEvents with maxs=true frames=true
-[Architectury Transformer DEBUG] Checking whether /farmies.mixins.json is a mixin config.
-[Architectury Transformer DEBUG] Checking whether /fabric.mod.json is a mixin config.
-[Architectury Transformer DEBUG] Closed File Systems for C:\Arquives\LunazStudios\Projetos\Farmies\Farmies\common\build\devlibs\farmies-common-1.0.0-dev.jar
-[Architectury Transformer] Detected File Modification at farmies-common-1.0.0-dev.jar
-[Architectury Transformer DEBUG] Transforming 5 transformer(s) from C:\Arquives\LunazStudios\Projetos\Farmies\Farmies\common\build\devlibs\farmies-common-1.0.0-dev.jar to C:\Users\giflu\AppData\Local\Temp\9007530521115120288.jar: 
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@12946090
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeFabricMod@2a7235ef
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@387eca32
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@11444634
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@2065346c
-[Architectury Transformer DEBUG] Transforming from C:\Arquives\LunazStudios\Projetos\Farmies\Farmies\common\build\devlibs\farmies-common-1.0.0-dev.jar to C:\Users\giflu\AppData\Local\Temp\9007530521115120288.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing architectury_inject_farmies_fabric_a52e928fca064c2993b310a9e231a184_9288909e1f72a79840c9ac73e87b4b4ebc6f8d0a09073840b4e634010206c8cbfarmiescommon100devjar/PlatformMethods with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/Farmies with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/block/LettuceCropBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/block/TomatoCropBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/client/FarmiesClient with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/registry/FBlocks with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/registry/FBlockTags with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/registry/FEntityTypes with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/registry/FEntityTypeTags with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/registry/FFoodProperties with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/registry/FItems with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/registry/FRegistry$BlockEntitySupplier with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/registry/FRegistry with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/lunazstudios/farmies/registry/FSoundEvents with maxs=true frames=true
-[Architectury Transformer DEBUG] Checking whether /farmies.mixins.json is a mixin config.
-[Architectury Transformer DEBUG] Checking whether /fabric.mod.json is a mixin config.
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/farmies/client/FarmiesClient in 505.4 μs

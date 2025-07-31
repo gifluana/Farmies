@@ -11,3 +11,32 @@
 /gamerule randomTickSpeed 3
 /gamerule randomTickSpeed 0
 /setblock -2 -61 -8 minecraft:farmland[moisture=7]
+/fill -4 -61 -7
+/fill -4 -61 -7 -4 -61 -10 minecraft:farmland[moisture=7]
+/setblock -2 -61 -9 minecraft:farmland[moisture=7]
+/fill -12 -61 -21 minecraft:farmland[moisture=7]
+/fill -12 -61 -21 -20 -61 -29 minecraft:farmland[moisture=7]
+/gamerule randomTickSpeed 300
+/gamerule randomTickSpeed 3000
+/gamerule randomTickSpeed 3
+/fill -21 -60 -30
+/fill -21 -60 -30 -12 -60 -21 air
+/gamerule randomTickSpeed 300
+/gamerule randomTickSpeed 3000
+/gamerule randomTickSpeed 0
+/fill -21 -60 -30 -12 -60 -21 air
+/gamerule randomTickSpeed 3000
+/gamerule randomTickSpeed 0
+/effect give Player650 minecraft:hunger 5 255
+/gamerule doMobSpawning false
+/effect give Player650 minecraft:hunger 5 255
+/give Player240 farmies:farmland_with_worms
+/give Player240 farmies:fertilized_farmland
+/gamerule randomTickSpeed 3
+/weather clear 999d
+/gamerule doWeatherCycle false
+/gamerule randomTickSpeed 3000
+/gamerule randomTickSpeed 3
+/gamerule randomTickSpeed 300
+/gamerule randomTickSpeed 0
+/gamerule randomTickSpeed 300

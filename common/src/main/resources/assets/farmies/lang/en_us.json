@@ -1,9 +1,17 @@
 {
+  "item_group.farmies.seeds": "§f\uE800§r - Seeds",
+  "item_group.farmies.produces": "§f\uE800§r - Produces",
+
   "item.farmies.tomato_seeds": "Tomato Seeds",
   "item.farmies.lettuce_seeds": "Lettuce Seeds",
+  "item.farmies.onion_seeds": "Onion Seeds",
+
   "item.farmies.tomato": "Tomato",
   "item.farmies.lettuce": "Lettuce",
+  "item.farmies.onion": "Onion",
 
   "block.farmies.tomatoes": "Tomatoes",
-  "block.farmies.lettuces": "Lettuces"
+  "block.farmies.lettuces": "Lettuces",
+  "block.farmies.farmland_with_worms": "Farmland With Worms",
+  "block.farmies.fertilized_farmland": "Fertilized Farmland"
 }

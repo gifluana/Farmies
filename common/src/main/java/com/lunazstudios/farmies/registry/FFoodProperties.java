@@ -12,4 +12,9 @@ public class FFoodProperties {
             .nutrition(2)
             .saturationModifier(0.25f)
             .build();
+
+    public static final FoodProperties ONION = new FoodProperties.Builder()
+            .nutrition(2)
+            .saturationModifier(0.25f)
+            .build();
 }

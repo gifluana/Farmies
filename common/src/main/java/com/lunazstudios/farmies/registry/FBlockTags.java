@@ -6,6 +6,8 @@ import net.minecraft.tags.TagKey;
 import net.minecraft.world.level.block.Block;
 
 public class FBlockTags {
+    public static final TagKey<Block> FARMLAND = blockTag("farmland");
+
     private static TagKey<Block> blockTag(String name) {
         return TagKey.create(Registries.BLOCK, Farmies.id(name));
     }
