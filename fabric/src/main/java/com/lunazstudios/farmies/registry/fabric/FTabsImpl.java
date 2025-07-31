@@ -17,6 +17,7 @@ public class FTabsImpl {
                         output.accept(FItems.TOMATO_SEEDS.get());
                         output.accept(FItems.LETTUCE_SEEDS.get());
                         output.accept(FItems.ONION_SEEDS.get());
+                        output.accept(FItems.GARLIC_SEEDS.get());
                     }).build());
 
     public static final CreativeModeTab PRODUCES_TAB = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,
@@ -26,6 +27,7 @@ public class FTabsImpl {
                         output.accept(FItems.TOMATO.get());
                         output.accept(FItems.LETTUCE.get());
                         output.accept(FItems.ONION.get());
+                        output.accept(FItems.GARLIC.get());
                     }).build());
 
     public static void register() {}

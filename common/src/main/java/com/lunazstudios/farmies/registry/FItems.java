@@ -15,5 +15,8 @@ public class FItems {
     public static final Supplier<Item> ONION_SEEDS = FRegistry.registerItem("onion_seeds", () -> new ItemNameBlockItem(FBlocks.ONIONS.get(), new Item.Properties()), "seeds");
     public static final Supplier<Item> ONION = FRegistry.registerItem("onion", () -> new Item(new Item.Properties().food(FFoodProperties.ONION)), "produces");
 
+    public static final Supplier<Item> GARLIC_SEEDS = FRegistry.registerItem("garlic_seeds", () -> new ItemNameBlockItem(FBlocks.GARLICS.get(), new Item.Properties()), "seeds");
+    public static final Supplier<Item> GARLIC = FRegistry.registerItem("garlic", () -> new Item(new Item.Properties().food(FFoodProperties.GARLIC)), "produces");
+
     public static void init() {}
 }

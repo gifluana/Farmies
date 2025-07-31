@@ -17,4 +17,9 @@ public class FFoodProperties {
             .nutrition(2)
             .saturationModifier(0.25f)
             .build();
+
+    public static final FoodProperties GARLIC = new FoodProperties.Builder()
+            .nutrition(1)
+            .saturationModifier(0.25f)
+            .build();
 }

@@ -9,11 +9,11 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "farmies:lettuce",
+              "name": "farmies:onion",
               "conditions": [
                 {
                   "condition": "minecraft:block_state_property",
-                  "block": "farmies:lettuces",
+                  "block": "farmies:onions",
                   "properties": { "age": "5" }
                 }
               ],
@@ -36,7 +36,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "farmies:lettuce_seeds",
+              "name": "farmies:onion_seeds",
               "functions": [
                 { "function": "minecraft:set_count", "count": 1 }
               ]
@@ -50,14 +50,14 @@
       "conditions": [
         {
           "condition": "minecraft:block_state_property",
-          "block": "farmies:lettuces",
+          "block": "farmies:onions",
           "properties": { "age": "5" }
         }
       ],
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "farmies:lettuce_seeds",
+          "name": "farmies:onion_seeds",
           "functions": [
             {
               "function": "minecraft:set_count",
