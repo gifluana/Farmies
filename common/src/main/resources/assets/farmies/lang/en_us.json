@@ -6,16 +6,24 @@
   "item.farmies.lettuce_seeds": "Lettuce Seeds",
   "item.farmies.onion_seeds": "Onion Seeds",
   "item.farmies.garlic_seeds": "Garlic Seeds",
+  "item.farmies.corn_seeds": "Corn Seeds",
+  "item.farmies.bellpepper_seeds": "Bell Pepper Seeds",
 
   "item.farmies.tomato": "Tomato",
   "item.farmies.lettuce": "Lettuce",
   "item.farmies.onion": "Onion",
   "item.farmies.garlic": "Garlic",
+  "item.farmies.corn": "Corn",
+  "item.farmies.green_bellpepper": "Green Bell Pepper",
+  "item.farmies.yellow_bellpepper": "Yellow Bell Pepper",
+  "item.farmies.red_bellpepper": "Red Bell Pepper",
 
   "block.farmies.tomatoes": "Tomatoes",
   "block.farmies.lettuces": "Lettuces",
   "block.farmies.onions": "Onions",
   "block.farmies.garlics": "Garlics",
+  "block.farmies.corns": "Corns",
+  "block.farmies.bellpeppers": "Bell Peppers",
 
   "block.farmies.farmland_with_worms": "Farmland With Worms",
   "block.farmies.fertilized_farmland": "Fertilized Farmland"

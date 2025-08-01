@@ -19,6 +19,8 @@ public class FTabsImpl {
                         output.accept(FItems.LETTUCE_SEEDS.get());
                         output.accept(FItems.ONION_SEEDS.get());
                         output.accept(FItems.GARLIC_SEEDS.get());
+                        output.accept(FItems.CORN_SEEDS.get());
+                        output.accept(FItems.BELLPEPPER_SEEDS.get());
                     })
                     .build());
 
@@ -31,6 +33,10 @@ public class FTabsImpl {
                         output.accept(FItems.LETTUCE.get());
                         output.accept(FItems.ONION.get());
                         output.accept(FItems.GARLIC.get());
+                        output.accept(FItems.CORN.get());
+                        output.accept(FItems.GREEN_BELLPEPPER.get());
+                        output.accept(FItems.YELLOW_BELLPEPPER.get());
+                        output.accept(FItems.RED_BELLPEPPER.get());
                     })
                     .build());
 

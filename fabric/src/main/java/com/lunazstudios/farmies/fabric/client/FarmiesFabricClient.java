@@ -11,7 +11,7 @@ public final class FarmiesFabricClient implements ClientModInitializer {
     public void onInitializeClient() {
         FarmiesClient.init();
         BlockRenderLayerMap.INSTANCE.putBlocks(RenderType.cutout(),
-                FBlocks.TOMATOES.get(), FBlocks.LETTUCES.get(), FBlocks.ONIONS.get()
+                FBlocks.TOMATOES.get(), FBlocks.LETTUCES.get(), FBlocks.ONIONS.get(), FBlocks.GARLICS.get(), FBlocks.CORNS.get(), FBlocks.BELLPEPPERS.get()
         );
     }
 }

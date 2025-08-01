@@ -17,6 +17,8 @@ public class FBlocks {
     public static final Supplier<Block> LETTUCES = registerBlockOnly("lettuces", () -> new LettuceCropBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.WHEAT)));
     public static final Supplier<Block> ONIONS = registerBlockOnly("onions", () -> new OnionCropBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.WHEAT)));
     public static final Supplier<Block> GARLICS = registerBlockOnly("garlics", () -> new GarlicCropBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.WHEAT)));
+    public static final Supplier<Block> CORNS = registerBlockOnly("corns", () -> new CornCropBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.WHEAT)));
+    public static final Supplier<Block> BELLPEPPERS = registerBlockOnly("bellpeppers", () -> new BellPepperCropBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.WHEAT)));
 
     private static <T extends Block> Supplier<T> registerBlock(String name, Supplier<T> block, String tab) {
         Supplier<T> supplier = FRegistry.registerBlock(name, block);
