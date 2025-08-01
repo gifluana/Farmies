@@ -22,9 +22,9 @@ public class FItems {
     public static final Supplier<Item> CORN = FRegistry.registerItem("corn", () -> new Item(new Item.Properties().food(FFoodProperties.CORN)), "produces");
 
     public static final Supplier<Item> BELLPEPPER_SEEDS = FRegistry.registerItem("bellpepper_seeds", () -> new ItemNameBlockItem(FBlocks.BELLPEPPERS.get(), new Item.Properties()), "seeds");
-    public static final Supplier<Item> RED_BELLPEPPER = FRegistry.registerItem("red_bellpepper", () -> new Item(new Item.Properties().food(FFoodProperties.CORN)), "produces");
-    public static final Supplier<Item> YELLOW_BELLPEPPER = FRegistry.registerItem("yellow_bellpepper", () -> new Item(new Item.Properties().food(FFoodProperties.CORN)), "produces");
-    public static final Supplier<Item> GREEN_BELLPEPPER = FRegistry.registerItem("green_bellpepper", () -> new Item(new Item.Properties().food(FFoodProperties.CORN)), "produces");
+    public static final Supplier<Item> RED_BELLPEPPER = FRegistry.registerItem("red_bellpepper", () -> new Item(new Item.Properties().food(FFoodProperties.BELLPEPPER)), "produces");
+    public static final Supplier<Item> YELLOW_BELLPEPPER = FRegistry.registerItem("yellow_bellpepper", () -> new Item(new Item.Properties().food(FFoodProperties.BELLPEPPER)), "produces");
+    public static final Supplier<Item> GREEN_BELLPEPPER = FRegistry.registerItem("green_bellpepper", () -> new Item(new Item.Properties().food(FFoodProperties.BELLPEPPER)), "produces");
 
     public static void init() {}
 }

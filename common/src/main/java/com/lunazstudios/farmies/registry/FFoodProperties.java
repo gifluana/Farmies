@@ -27,4 +27,9 @@ public class FFoodProperties {
             .nutrition(4)
             .saturationModifier(0.5f)
             .build();
+
+    public static final FoodProperties BELLPEPPER = new FoodProperties.Builder()
+            .nutrition(3)
+            .saturationModifier(0.4f)
+            .build();
 }
