@@ -9,6 +9,7 @@
   "item.farmies.corn_seeds": "Corn Seeds",
   "item.farmies.bellpepper_seeds": "Bell Pepper Seeds",
   "item.farmies.eggplant_seeds": "Eggplant Seeds",
+  "item.farmies.strawberry_seeds": "Strawberry Seeds",
 
   "item.farmies.tomato": "Tomato",
   "item.farmies.lettuce": "Lettuce",
@@ -19,6 +20,7 @@
   "item.farmies.yellow_bellpepper": "Yellow Bell Pepper",
   "item.farmies.red_bellpepper": "Red Bell Pepper",
   "item.farmies.eggplant": "Eggplant",
+  "item.farmies.strawberry": "Strawberry",
 
   "block.farmies.tomatoes": "Tomatoes",
   "block.farmies.lettuces": "Lettuces",
@@ -27,6 +29,7 @@
   "block.farmies.corns": "Corns",
   "block.farmies.bellpeppers": "Bell Peppers",
   "block.farmies.eggplants": "Eggplants",
+  "block.farmies.strawberries": "Strawberries",
 
   "block.farmies.farmland_with_worms": "Farmland With Worms",
   "block.farmies.fertilized_farmland": "Fertilized Farmland"

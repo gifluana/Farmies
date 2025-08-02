@@ -29,5 +29,8 @@ public class FItems {
     public static final Supplier<Item> EGGPLANT_SEEDS = FRegistry.registerItem("eggplant_seeds", () -> new ItemNameBlockItem(FBlocks.EGGPLANTS.get(), new Item.Properties()), "seeds");
     public static final Supplier<Item> EGGPLANT = FRegistry.registerItem("eggplant", () -> new Item(new Item.Properties().food(FFoodProperties.EGGPLANT)), "produces");
 
+    public static final Supplier<Item> STRAWBERRY_SEEDS = FRegistry.registerItem("strawberry_seeds", () -> new ItemNameBlockItem(FBlocks.STRAWBERRIES.get(), new Item.Properties()), "seeds");
+    public static final Supplier<Item> STRAWBERRY = FRegistry.registerItem("strawberry", () -> new Item(new Item.Properties().food(FFoodProperties.STRAWBERRY)), "produces");
+
     public static void init() {}
 }

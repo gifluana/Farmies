@@ -37,4 +37,9 @@ public class FFoodProperties {
             .nutrition(3)
             .saturationModifier(0.35f)
             .build();
+
+    public static final FoodProperties STRAWBERRY = new FoodProperties.Builder()
+            .nutrition(3)
+            .saturationModifier(0.4f)
+            .build();
 }
