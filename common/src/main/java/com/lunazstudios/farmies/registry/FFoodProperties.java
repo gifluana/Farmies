@@ -32,4 +32,9 @@ public class FFoodProperties {
             .nutrition(3)
             .saturationModifier(0.4f)
             .build();
+
+    public static final FoodProperties EGGPLANT = new FoodProperties.Builder()
+            .nutrition(3)
+            .saturationModifier(0.35f)
+            .build();
 }

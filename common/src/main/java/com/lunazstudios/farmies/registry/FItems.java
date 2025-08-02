@@ -26,5 +26,8 @@ public class FItems {
     public static final Supplier<Item> YELLOW_BELLPEPPER = FRegistry.registerItem("yellow_bellpepper", () -> new Item(new Item.Properties().food(FFoodProperties.BELLPEPPER)), "produces");
     public static final Supplier<Item> GREEN_BELLPEPPER = FRegistry.registerItem("green_bellpepper", () -> new Item(new Item.Properties().food(FFoodProperties.BELLPEPPER)), "produces");
 
+    public static final Supplier<Item> EGGPLANT_SEEDS = FRegistry.registerItem("eggplant_seeds", () -> new ItemNameBlockItem(FBlocks.EGGPLANTS.get(), new Item.Properties()), "seeds");
+    public static final Supplier<Item> EGGPLANT = FRegistry.registerItem("eggplant", () -> new Item(new Item.Properties().food(FFoodProperties.EGGPLANT)), "produces");
+
     public static void init() {}
 }
