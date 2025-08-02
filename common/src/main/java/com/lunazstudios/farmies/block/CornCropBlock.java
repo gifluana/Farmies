@@ -15,16 +15,21 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.CropBlock;
 import net.minecraft.world.level.block.LevelEvent;
+import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.DoubleBlockHalf;
 import net.minecraft.world.level.block.state.properties.EnumProperty;
 import net.minecraft.world.level.block.state.properties.IntegerProperty;
+import net.minecraft.world.level.storage.loot.LootParams;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
+
+import java.util.List;
 
 public class CornCropBlock extends CropBlock {
     public static final int MAX_AGE = 5;
@@ -133,7 +138,6 @@ public class CornCropBlock extends CropBlock {
         if (newAge >= DOUBLE_AGE) {
             level.setBlock(pos.above(), getStateForAge(newAge).setValue(HALF, DoubleBlockHalf.UPPER), 2);
         } else {
-            // remove topo se ainda era baixo
             BlockState above = level.getBlockState(pos.above());
             if (above.is(this) && above.getValue(HALF) == DoubleBlockHalf.UPPER) {
                 level.setBlock(pos.above(), Blocks.AIR.defaultBlockState(), 3);
@@ -158,18 +162,15 @@ public class CornCropBlock extends CropBlock {
         DoubleBlockHalf half = state.getValue(HALF);
 
         if (dir.getAxis() == Direction.Axis.Y) {
-            if (half == DoubleBlockHalf.LOWER && dir == Direction.UP) {
-                // topo foi removido
-                if (neighbor.is(this) && neighbor.getValue(HALF) == DoubleBlockHalf.UPPER) {
-                    return state;
-                } else if (getAge(state) >= DOUBLE_AGE) {
-                    // recria se quebraram sem dropar
-                    world.setBlock(pos.above(), getStateForAge(getAge(state)).setValue(HALF, DoubleBlockHalf.UPPER), 3);
-                }
-            } else if (half == DoubleBlockHalf.UPPER && dir == Direction.DOWN) {
-                // base foi removida
+            if (half == DoubleBlockHalf.UPPER && dir == Direction.DOWN) {
                 if (!neighbor.is(this) || neighbor.getValue(HALF) != DoubleBlockHalf.LOWER) {
                     return Blocks.AIR.defaultBlockState();
+                }
+            }
+
+            if (half == DoubleBlockHalf.LOWER && dir == Direction.UP) {
+                if (!neighbor.is(this) || neighbor.getValue(HALF) != DoubleBlockHalf.UPPER) {
+                    world.destroyBlock(pos, false);
                 }
             }
         }
@@ -178,23 +179,22 @@ public class CornCropBlock extends CropBlock {
     }
 
     @Override
-    public BlockState playerWillDestroy(Level world, BlockPos pos, BlockState state, Player player) {
-        super.playerWillDestroy(world, pos, state, player);
-        if (!world.isClientSide) {
-            if (player.isCreative()) {
-                removeOtherHalf(world, pos, state, player);
+    public BlockState playerWillDestroy(Level level, BlockPos pos, BlockState state, Player player) {
+        if (!level.isClientSide) {
+            DoubleBlockHalf half = state.getValue(HALF);
+            BlockPos mainPos = (half == DoubleBlockHalf.UPPER) ? pos.below() : pos;
+            BlockPos otherPos = (half == DoubleBlockHalf.UPPER) ? pos : pos.above();
+
+            BlockState mainState = level.getBlockState(mainPos);
+
+            Block.dropResources(mainState, level, mainPos, null, player, player.getMainHandItem());
+
+            level.removeBlock(mainPos, false);
+            if (level.getBlockState(otherPos).is(this)) {
+                level.removeBlock(otherPos, false);
             }
         }
-        return state;
-    }
 
-    protected static void removeOtherHalf(Level world, BlockPos pos, BlockState state, Player player) {
-        DoubleBlockHalf half = state.getValue(HALF);
-        BlockPos otherPos = half == DoubleBlockHalf.UPPER ? pos.below() : pos.above();
-        BlockState other = world.getBlockState(otherPos);
-        if (other.is(state.getBlock()) && other.getValue(HALF) != half) {
-            world.setBlock(otherPos, Blocks.AIR.defaultBlockState(), 35);
-            world.levelEvent(player, LevelEvent.PARTICLES_DESTROY_BLOCK, otherPos, Block.getId(other));
-        }
+        return super.playerWillDestroy(level, pos, state, player);
     }
 }

@@ -14,7 +14,10 @@
                 {
                   "condition": "minecraft:block_state_property",
                   "block": "farmies:corns",
-                  "properties": { "age": "5" }
+                  "properties": {
+                    "age": "5",
+                    "half": "lower"
+                  }
                 }
               ],
               "functions": [
@@ -37,6 +40,13 @@
             {
               "type": "minecraft:item",
               "name": "farmies:corn_seeds",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "farmies:corns",
+                  "properties": { "half": "lower" }
+                }
+              ],
               "functions": [
                 { "function": "minecraft:set_count", "count": 1 }
               ]
@@ -51,7 +61,10 @@
         {
           "condition": "minecraft:block_state_property",
           "block": "farmies:corns",
-          "properties": { "age": "5" }
+          "properties": {
+            "age": "5",
+            "half": "lower"
+          }
         }
       ],
       "entries": [
